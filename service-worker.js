@@ -11,13 +11,13 @@
  * See https://goo.gl/2aRDsh
  */
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js');
+importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  '/<todo_web_app>/precache-manifest.430ca973f484e81a71cfade0dd6398fa.js',
+  "/todo_web_app/precache-manifest.c6fb62e4710021b7b85bfaf8d763af36.js"
 );
 
-workbox.core.setCacheNameDetails({ prefix: 'todo_web_app' });
+workbox.core.setCacheNameDetails({prefix: "todo_web_app"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
